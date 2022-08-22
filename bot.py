@@ -2,6 +2,9 @@ import discord, json, requests, os, asyncio
 from discord.ext import commands
 from bs4 import BeautifulSoup as bs
 
+# Github: https://github.com/PainDe0Mie/retoken
+# Discord: 𝗣ain𝗗e𝟬𝗠ie#4811
+
 with open('config.json') as f:
     data = json.load(f)
     token = data["TOKEN"]
@@ -33,13 +36,16 @@ async def retoken(ctx):
             embed = discord.Embed(title="Verification | Google Authenticator", description="Scanner le Qrcode si se n'est pas déjà fait, puis entrer le code de google auth.")
             qrcode = get_qrcode(ctx.author.id)
             embed.set_thumbnail(url=qrcode)
+            embed.set_footer(text="𝗣ain𝗗e𝟬𝗠ie#4811 - Merci d'utilisé mon programme <3")
             a = await ctx.author.send(embed=embed)
 
             embedT = discord.Embed(title="Verification | Google Authenticator", description="Vous avez entrer le bon code, j'ai regen le token du bot donc un message officiel de discord vous a été envoyer.")
             embedT.set_thumbnail(url="https://play-lh.googleusercontent.com/oMv9o-L-mNKdyL3Hp6fvNwrhAyIYB1iP3p644hxN03oFU0R2oevnmxmCLF6FewjzZXU")
+            embedT.set_footer(text="𝗣ain𝗗e𝟬𝗠ie#4811 - Merci d'utilisé mon programme <3")
 
             embedF = discord.Embed(title="Verification | Google Authenticator", description="Vous avez entrer un code invalide.")
             embedF.set_thumbnail(url="https://play-lh.googleusercontent.com/oMv9o-L-mNKdyL3Hp6fvNwrhAyIYB1iP3p644hxN03oFU0R2oevnmxmCLF6FewjzZXU")
+            embedF.set_footer(text="𝗣ain𝗗e𝟬𝗠ie#4811 - Merci d'utilisé mon programme <3")
 
             def check(m):
                 return m.author == ctx.author
@@ -60,7 +66,7 @@ async def retoken(ctx):
                     await a.edit(embed=embedF)
         else:
             os.system(f"python github.py --name {bot.user.name} --token {token}")
-            await ctx.send("Token regen.")
+            await ctx.send("Votre token à bien été réinitialiser !")
     else:
         await ctx.send("Vous avez pas la perm. d'utiliser cette commande.")
 
