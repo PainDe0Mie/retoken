@@ -1,5 +1,8 @@
 import requests, json, os, argparse
 
+# Github: https://github.com/PainDe0Mie/retoken
+# Discord: 𝗣ain𝗗e𝟬𝗠ie#4811
+
 with open('config.json') as f:
     data = json.load(f)
     GITHUB_TOKEN = data["GITHUB_TOKEN"]
