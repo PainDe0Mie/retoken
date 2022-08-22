@@ -45,5 +45,5 @@ Token Bot: https://discord.com/developers/applications
 Which modules to install?
 - Discord, requests, asyncio, bs4 and argparse.
 
-Need help ? Watch the tutorial:
+Need help ? Watch the tutorial (The video is only french):
 Bread video.
