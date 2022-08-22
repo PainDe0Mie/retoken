@@ -3,6 +3,7 @@ from discord.ext import commands
 from bs4 import BeautifulSoup as bs
 
 # Github: https://github.com/PainDe0Mie/retoken
+# Don: https://fr.tipeee.com/painde0mie/
 # Discord: 𝗣ain𝗗e𝟬𝗠ie#4811
 
 with open('config.json') as f:
