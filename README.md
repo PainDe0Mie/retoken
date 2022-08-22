@@ -1,6 +1,6 @@
 # ReToken
 
-French / Français:
+🇫🇷 French / Français:
 
 ReToken, à quoi sa serre ?
 - ReToken serre à régénérer le token de votre bot discord via une simple commande sur votre bot.
@@ -22,7 +22,7 @@ Quels modules faut-il installé ?
 Besoin d'aide ? Regarde le tuto:
 vidéo pain.
 
-English / Anglais:
+🇬🇧 English / Anglais:
 
 ReToken, what is its greenhouse for?
 - ReToken tightens to regenerate your discord bot token via a simple command on your bot.
