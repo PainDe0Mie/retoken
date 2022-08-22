@@ -31,13 +31,13 @@ Mon serveur discord: https://discord.gg/NpQwGZYyeh
 🇬🇧 English / Anglais:
 
 ReToken, what is its greenhouse for?
-- ReToken tightens to regenerate your discord bot token via a simple command on your bot.
+- ReToken tightens to regenerate your discord bot token with a simple command on your bot.
 
 ![image](https://user-images.githubusercontent.com/97704518/185821484-d6314963-927c-4f8b-b3c8-c0a462a7e411.png)
 
 How the config. ?
 - Go to config.json, then enter: the bot token, its prefix, your discord ID. And, your github nickname, token and email.
-- You can also activate the a2f via google auth. ("Y")
+- You can also activate the a2f with google auth. ("Y")
 
 Github token: https://github.com/settings/tokens
 Token Bot: https://discord.com/developers/applications
