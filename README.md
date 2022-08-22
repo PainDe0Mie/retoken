@@ -22,6 +22,8 @@ Quels modules faut-il installé ?
 Besoin d'aide ? Regarde le tuto:
 vidéo pain.
 
+Mon serveur discord: https://discord.gg/NpQwGZYyeh
+
 ———————————————————————————————————————————————————
 
 # ReToken
@@ -47,3 +49,5 @@ Which modules to install?
 
 Need help ? Watch the tutorial (The video is only french):
 Bread video.
+
+My discord server: https://discord.gg/NpQwGZYyeh
