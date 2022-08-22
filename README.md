@@ -9,8 +9,8 @@ Comment le config. ?
 - Allez dans config.json, puis entrer: le token du bot, son prefix, votre id discord. Et, votre pseudo github, token et mail.
 - Vous pouvez également activer l'a2f via google auth. ("Y")
 
-https://github.com/settings/tokens
-https://discord.com/developers/applications
+Token Github: https://github.com/settings/tokens
+Token Bot: https://discord.com/developers/applications
 
 ![image](https://user-images.githubusercontent.com/97704518/185821363-3a0349c5-7bb7-4e88-877f-d9021d33bdb1.png)
 
