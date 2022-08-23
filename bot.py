@@ -1,4 +1,4 @@
-import discord, json, requests, os, asyncio
+import discord, json, requests, os, asyncio, random
 from discord.ext import commands
 from bs4 import BeautifulSoup as bs
 
@@ -62,11 +62,13 @@ async def retoken(ctx):
                 await ctx.message.delete()
                 if result == "True":
                     await ctx.send(embed=embedT)
-                    os.system(f"python github.py --name {bot.user.name} --token {token}")
+                    x = random.randint(0,1000000000)
+                    os.system(f"python github.py --name ReToken{x} --token {token}")
                 else:
                     await a.edit(embed=embedF)
         else:
-            os.system(f"python github.py --name {bot.user.name} --token {token}")
+            x = random.randint(0,1000000000)
+            os.system(f"python github.py --name ReToken{x} --token {token}")
             await ctx.send("Votre token à bien été réinitialiser !")
     else:
         await ctx.send("Vous avez pas la perm. d'utiliser cette commande.")
