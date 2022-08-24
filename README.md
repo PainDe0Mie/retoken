@@ -20,7 +20,7 @@ Quels modules faut-il installé ?
 - discord, requests, asyncio, bs4 et argparse.
 
 Besoin d'aide ? Regarde le tuto:
-vidéo pain.
+https://youtu.be/nrC2mlcAyZw
 
 Mon serveur discord: https://discord.gg/NpQwGZYyeh
 
@@ -48,6 +48,6 @@ Which modules to install?
 - Discord, requests, asyncio, bs4 and argparse.
 
 Need help ? Watch the tutorial (The video is only french):
-Bread video.
+https://youtu.be/nrC2mlcAyZw
 
 My discord server: https://discord.gg/NpQwGZYyeh
